@@ -1,44 +1,45 @@
-> ## 🧩 Overview
-> MythBuster is a React-based educational web app that lets users explore, review, and add myths or claims, along with verdicts such as TRUE, PLAUSIBLE, BUSTED, or UNKNOWN. It presents each myth with an automated check showing verdict, confidence score, and explanation, using a clean, card-style interface with a simple modal form for adding new entries.
->
-> ## ✨ Features
-> - View detailed information about a selected myth, including verdict, confidence (in %), and explanation.
-> - Add new myths through a modal form with fields for claim, verdict, explanation, and tags.
-> - Verdicts are visually distinguished using color-coded badges (green, amber, red, slate).
-> - Responsive layout built with utility classes for modern styling.
-> - Educational disclaimer clearly stating that the app does not provide medical advice.
->
-> ## 🛠 Technologies / Tools Used
-> - **React** with functional components and hooks (`useState`, `useEffect`).
-> - **JavaScript (ES6+)** for component logic and state updates.
-> - **Tailwind CSS–style utility classes** for styling (e.g., `bg-slate-50`, `mt-3`, `rounded`).
-> - **Node.js + npm** for dependency management and running the development server.
->
-> ## 🚀 Installation & Running the Project
-> 1. Clone the repository:  
->    `git clone https://github.com/your-username/mythbuster-react.git`  
->    `cd mythbuster-react`
-> 2. Install dependencies:  
->    `npm install`
-> 3. Start the development server:  
->    `npm start` (or `npm run dev` if using Vite)
-> 4. Open the app in your browser at `http://localhost:3000` (or the port shown in your terminal).
->
-> ## ✅ Testing Instructions
-> - **Manual testing**
->   - Select an existing myth and verify that the verdict, confidence, and explanation render correctly.
->   - Add a new myth using the modal and confirm it appears in the list with the chosen verdict and tags.
->   - Check that the badge color matches the selected verdict (TRUE, PLAUSIBLE, BUSTED, UNKNOWN).
-> - **Automated testing (optional)**
->   - Set up Jest and React Testing Library.
->   - Write tests for:
->     - Rendering of the myth list and detail panel.
->     - Form validation (required fields: claim and explanation).
->     - Correct behavior of the `badgeColor(verdict)` helper.
->
-> ## 🖼 Screenshots 
->   `![Myth list view](./screenshots/code1.jpg)`  
->   `![Add myth modal](./screenshots/code2.jpg)`
-    `![Add myth modal](./screenshots/code3.jpg)`
-    `![Add myth modal](./screenshots/code4.jpg)`
-    `![Add myth modal](./screenshots/result.jpg)`# Health-Myth-Buster
+# Health Myth Buster App
+
+## Overview
+
+Health Myth Buster is a simple, interactive Python application designed to help users distinguish between common health myths and evidence-based facts. By inputting any health-related claim, users instantly receive a verdict—True, False, or Uncertain—along with a concise explanation. This project aims to promote accurate health information and dispel misinformation in an accessible way.
+
+## Features
+
+- **Instant Myth Busting:** Enter any health claim and receive a True/False/Uncertain verdict with an explanation.
+- **Preloaded Knowledge Base:** Quickly identifies several widespread health myths and facts.
+- **User-Friendly Loop:** Allows repeated checks until the user decides to exit.
+- **Case-Insensitive Matching:** Recognizes claims regardless of capitalization for better accuracy[web:2][web:3][web:6].
+
+## Technologies/Tools Used
+
+- **Python 3.x:** Core programming language.
+- **Standard Library:** No external dependencies, using basic Python data structures and control flow.
+
+## Steps to Install & Run
+
+1. **Clone or Download:** Get the project files from the repository.
+2. **Verify Python Installation:** Ensure Python 3.x is installed by running `python --version` or `python3 --version` in your terminal or command prompt.
+3. **Run the Script:**
+    - Open a terminal in the project directory.
+    - Start the app with:
+      ```
+      python health_myth_buster.py
+      ```
+      or, depending on your system:
+      ```
+      python3 health_myth_buster.py
+      ```
+
+## Instructions for Testing
+
+1. **Launch the App:** Follow the steps above to start.
+2. **Input Health Claim:** Type a health-related statement, e.g.:
+   - *"Vaccines cause autism"*
+   - *"Washing hands prevents infection"*
+   - *"Lemon cures cancer"*
+3. **View Result:** The app responds with a verdict and clear explanation.
+4. **Repeat or Exit:** Enter additional claims or type `'exit'` to quit the program.
+
+Feel free to extend the knowledge base by adding more myths and facts to the respective dictionaries!
+
