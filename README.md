@@ -41,4 +41,7 @@ Health Myth Buster is a simple, interactive Python application designed to help 
 3. **View Result:** The app responds with a verdict and clear explanation.
 4. **Repeat or Exit:** Enter additional claims or type `'exit'` to quit the program.
 
-Feel free to extend the knowledge base by adding more myths and facts to the respective dictionaries!
+## Screenshots of python code
+![Code Screenshot](screenshot1.jpg)
+![Code Screenshot](screenshot2.jpg)
+![Code Screenshot](screenshot3.jpg)
